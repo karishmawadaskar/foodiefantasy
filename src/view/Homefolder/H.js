@@ -2,8 +2,8 @@ import React from 'react'
 import "./../../index.css"
 import FoodCard from "../../component/Foodcard/Foodcard"
 import Footer from "../../component/Footer/Footer"
-import Navbar from '../../component/Navbar/Navbar'
-import { PRODUCTS,MAIN_TITLE } from '../../component/config/data'
+import Navbar from '../../component/Navbar/N'
+import { PRODUCTS,MAIN_TITLE } from '../../component/Config/Data'
 //objects of array to fit all foodcards
 
 

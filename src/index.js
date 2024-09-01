@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
-import Home from "./view/home/home";
-import About from "./view/about/About";
-import Contact from "./view/contact/Contact";
+import Home from "./view/Homefolder/H";
+import About from './view/Aboutfolder/A';
+import Contact from "./view/Contactfolder/C";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/about",
+    path: "/About",
     element: <About />,
   },
   {

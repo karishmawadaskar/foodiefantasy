@@ -24,7 +24,7 @@ const PRODUCTS = [
     },
     {
       imgUrl: "https://img.freepik.com/free-photo/juicy-cheeseburger-wooden-cutting-board_9975-24304.jpg?t=st=1725183395~exp=1725186995~hmac=7b42556194337adcca6ab30c6ce3ddb240182bd0a3924e64e3145b17ce1a08c7&w=1380",
-      title: "Burger",
+      title: "Burger-nonveg",
       description: "the best burgers are like life — messy and topped with bacon.",
       isveg: false,
       prize: 150
@@ -38,7 +38,7 @@ const PRODUCTS = [
     },
     {
       imgUrl: "https://img.freepik.com/premium-photo/gyoza-with-cranberry-horseradish-sauce-yummy-delicious-gyoza-food-image-photography_1295756-158157.jpg?w=996",
-      title: "momos",
+      title: "momos-nonveg",
       description: "Momo are basically dough wrapped around stuffed vegetables or meat..",
       isveg: false,
       prize: 90

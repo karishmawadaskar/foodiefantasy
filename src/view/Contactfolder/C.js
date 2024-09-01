@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../component/Navbar/Navbar';
+import Navbar from '../../component/Navbar/N';
 import Footer from '../../component/Footer/Footer';
 
 function Contact() {

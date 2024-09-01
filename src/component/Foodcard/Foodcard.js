@@ -2,11 +2,11 @@ import React from 'react'
 import "./foodcard.css"
 import vegicon from "./veg.png"
 import nonvegicon from "./nonveg.png"
-function FoodCard({ imgurl, title, description, isveg ,prize}) {
+function FoodCard({ imgUrl, title, description, isveg ,prize}) {
 
   return (
     <div className='foodcard'>
-      <img src={imgurl}
+      <img src={imgUrl}
         className='foocard-img'
         alt="food"
       />

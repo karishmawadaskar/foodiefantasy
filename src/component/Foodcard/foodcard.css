@@ -1,0 +1,48 @@
+.foodcard{
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin:10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: relative;
+    cursor: pointer;
+}
+.foodcard:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    zoom: 1.04;
+    transition: 0.3s;
+}
+.foocard-img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.foodcard-title{
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+
+.foodcard-icon{
+    height: 20px;
+    position:absolute;
+    top:10px;
+    right:20px;
+   background-color: #fff;
+}
+.foodcart-btn{
+    border: none;
+    background-color:rgb(237, 110, 20) ;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+..foodcart-btn:hover{
+    background-color:rgb(241, 150, 85) ;
+}

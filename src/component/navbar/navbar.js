@@ -2,11 +2,12 @@ import React from "react";
 import "./navbar.css";
 import {Link} from "react-router-dom";
 
-function navbar() {
+function Navbar() {
     return (
         <div className="navbar-container">
         <h1 >
-        routing
+        Foodie's Fantasy
+        
         </h1>
         <div className="navbar">
         <Link to="/"className='navbar-page'>
@@ -19,4 +20,4 @@ function navbar() {
     </div>
     )
 }
-export default navbar;
+export default Navbar;

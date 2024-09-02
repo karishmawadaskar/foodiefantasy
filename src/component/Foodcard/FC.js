@@ -2,7 +2,7 @@ import React from 'react'
 import "./foodcard.css"
 import vegicon from "./veg.png"
 import nonvegicon from "./nonveg.png"
-function FoodCard({ imgUrl, title, description, isveg ,prize}) {
+function FoodCard({ imgUrl, title, description, isveg, price }) {
 
   return (
     <div className='foodcard'>
@@ -20,12 +20,12 @@ function FoodCard({ imgUrl, title, description, isveg ,prize}) {
         className='foodcard-icon'
         alt='icons'
       />
-{
-  prize ?
-  <p className='foodcart-prize'>$ {prize}</p>
-  :"NA"
-}
-    <button className='foodcart-btn'>Add to Card</button>  
+      {
+        price ?
+          <p className='foodcart-prize'>$ {price}</p>
+          : "NA"
+      }
+      <button className='foodcart-btn'>Add to Card</button>
     </div>
   )
 }

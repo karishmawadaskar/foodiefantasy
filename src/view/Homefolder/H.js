@@ -3,7 +3,7 @@ import "./../../index.css"
 import FoodCard from "../../component/Foodcard/FC"
 import Footer from "../../component/Footer/F"
 import Navbar from '../../component/Navbar/N'
-import { PRODUCTS,MAIN_TITLE } from '../../component/Config/Data'
+import { PRODUCTS, MAIN_TITLE } from "/../../component/Config/Data"
 //objects of array to fit all foodcards
 
 
@@ -24,7 +24,7 @@ function Home() {
                 title={foodItem.title}
                 description={foodItem.description}
                 isveg={foodItem.isveg}
-                prize={foodItem.prize}
+                price={foodItem.price}
               />
             );
           })}

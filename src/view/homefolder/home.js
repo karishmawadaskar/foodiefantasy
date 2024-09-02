@@ -1,6 +1,6 @@
 import React from 'react'
 import "./../../index.css"
-import FoodCard from '../../component/foodcard/foodcard'
+import FoodCard from '../foodcard/foodcard'
 import Footer from '../../component/footer/footer'
 import Navbar from '../../component/navbar/navbar'
 import { PRODUCTS, MAIN_TITLE } from './../../component/configUI/data'

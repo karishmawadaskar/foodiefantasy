@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
-import Home from "./view/Homefolder/H";
-import About from './view/Aboutfolder/A';
-import Contact from "./view/Contactfolder/C";
+import Home from './view/homefolder/home';
+import About from './view/aboutfolder/about';
+import Contact from './view/contactfolder/contact';
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 

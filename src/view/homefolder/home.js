@@ -1,9 +1,9 @@
 import React from 'react'
 import "./../../index.css"
-import FoodCard from "../../component/Foodcard/FC"
-import Footer from "../../component/Footer/F"
-import Navbar from '../../component/Navbar/N'
-import { PRODUCTS, MAIN_TITLE } from "../../component/ConfigUI/Data"
+import FoodCard from '../../component/foodcard/foodcard'
+import Footer from '../../component/footer/footer'
+import Navbar from '../../component/navbar/navbar'
+import { PRODUCTS, MAIN_TITLE } from './../../component/configUI/data'
 //objects of array to fit all foodcards
 
 

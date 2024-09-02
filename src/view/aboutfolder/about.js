@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../component/Navbar/N';
-import Footer from '../../component/Footer/F';
+import Navbar from '../../component/navbar/navbar';
+import Footer from '../../component/footer/footer';
 
 function About() {
   return (
